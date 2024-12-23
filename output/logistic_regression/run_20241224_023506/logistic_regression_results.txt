@@ -1,0 +1,14 @@
+=== Logistic Regression Model Results ===
+
+Timestamp: 2024-12-24 02:35:23
+Final Training Accuracy: 0.384
+Final Validation Accuracy: 0.319
+Final Test Accuracy: 0.321
+Final Training Loss: 2.128
+Final Validation Loss: 2.503
+
+Model Parameters:
+- Learning Rate: constant
+- Max Iterations: 100
+- Loss Function: log_loss
+- Random State: 42

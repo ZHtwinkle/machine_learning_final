@@ -1,0 +1,127 @@
+=== Model Comparison Report ===
+Generated at: 2024-12-24 01:39:35
+
+
+Logistic Regression:
+====================
+
+Basic Metrics:
+---------------
+Training Accuracy: 0.378
+Validation Accuracy: 0.323
+Test Accuracy: 0.319
+
+Detailed Performance Metrics:
+------------------------------
+Macro-average Precision: 0.327
+Macro-average Recall: 0.319
+Macro-average F1-Score: 0.312
+
+Detailed Classification Report:
+------------------------------
+              precision    recall  f1-score   support
+
+           0       0.33      0.52      0.40      1000
+           1       0.40      0.33      0.36      1000
+           2       0.26      0.23      0.25      1000
+           3       0.20      0.21      0.20      1000
+           4       0.25      0.37      0.30      1000
+           5       0.22      0.11      0.15      1000
+           6       0.34      0.41      0.37      1000
+           7       0.42      0.29      0.34      1000
+           8       0.48      0.26      0.34      1000
+           9       0.37      0.47      0.41      1000
+
+    accuracy                           0.32     10000
+   macro avg       0.33      0.32      0.31     10000
+weighted avg       0.33      0.32      0.31     10000
+
+
+Linear SVM:
+===========
+
+Basic Metrics:
+---------------
+Training Accuracy: 0.522
+Validation Accuracy: 0.364
+Test Accuracy: 0.361
+
+Detailed Performance Metrics:
+------------------------------
+Macro-average Precision: 0.351
+Macro-average Recall: 0.362
+Macro-average F1-Score: 0.351
+
+Detailed Classification Report:
+------------------------------
+              precision    recall  f1-score   support
+
+           0       0.40      0.45      0.43      1000
+           1       0.40      0.45      0.42      1000
+           2       0.28      0.19      0.23      1000
+           3       0.26      0.16      0.20      1000
+           4       0.33      0.24      0.28      1000
+           5       0.28      0.26      0.27      1000
+           6       0.35      0.48      0.40      1000
+           7       0.40      0.43      0.41      1000
+           8       0.42      0.54      0.47      1000
+           9       0.39      0.43      0.41      1000
+
+    accuracy                           0.36     10000
+   macro avg       0.35      0.36      0.35     10000
+weighted avg       0.35      0.36      0.35     10000
+
+
+KNN:
+====
+
+Basic Metrics:
+---------------
+Training Accuracy: 1.000
+Validation Accuracy: 0.261
+Test Accuracy: 0.277
+
+Detailed Performance Metrics:
+------------------------------
+Macro-average Precision: 0.352
+Macro-average Recall: 0.277
+Macro-average F1-Score: 0.257
+
+Detailed Classification Report:
+------------------------------
+              precision    recall  f1-score   support
+
+           0       0.43      0.30      0.35      1000
+           1       0.47      0.10      0.16      1000
+           2       0.18      0.44      0.26      1000
+           3       0.22      0.12      0.15      1000
+           4       0.20      0.34      0.26      1000
+           5       0.32      0.19      0.24      1000
+           6       0.24      0.32      0.27      1000
+           7       0.57      0.18      0.27      1000
+           8       0.32      0.69      0.44      1000
+           9       0.56      0.10      0.17      1000
+
+    accuracy                           0.28     10000
+   macro avg       0.35      0.28      0.26     10000
+weighted avg       0.35      0.28      0.26     10000
+
+
+Best Performing Models:
+====================
+
+Best model by Test Accuracy:
+- Model: Linear SVM
+- Score: 0.361
+
+Best model by Macro F1-Score:
+- Model: Linear SVM
+- Score: 0.351
+
+Best model by Macro Precision:
+- Model: KNN
+- Score: 0.352
+
+Best model by Macro Recall:
+- Model: Linear SVM
+- Score: 0.362

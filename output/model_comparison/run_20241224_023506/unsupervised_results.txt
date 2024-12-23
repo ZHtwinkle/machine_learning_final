@@ -1,0 +1,18 @@
+
+=== Unsupervised Learning Results ===
+
+K-means Clustering Metrics:
+------------------------------
+Training Time: 22.95 seconds
+
+Training Set Metrics:
+Silhouette: 0.047
+Calinski: 2921.162
+Davies: 2.827
+Inertia: 100660958.060
+
+Test Set Metrics:
+Silhouette: 0.046
+Calinski: 584.980
+Davies: 2.821
+Inertia: 100660958.060

@@ -1,0 +1,25 @@
+=== Improved SVM Model Results ===
+
+Timestamp: 2024-12-24 03:16:04
+Training Time: 7.55 seconds
+
+Model Configuration:
+--------------------
+PCA Components: 100
+Best Parameters:
+- pca__n_components: 100
+- svm__C: 1.0
+- svm__tol: 0.01
+
+Performance Metrics:
+--------------------
+Training Accuracy: 0.406
+Validation Accuracy: 0.393
+Test Accuracy: 0.399
+Training Loss: 1.765
+Validation Loss: 1.794
+
+PCA Explained Variance:
+--------------------
+Total variance explained: 0.898
+Number of components explaining 95% variance: 1

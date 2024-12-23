@@ -1,0 +1,12 @@
+=== KNN Model Results ===
+
+Timestamp: 2024-12-24 01:39:30
+Training Accuracy: 1.000
+Validation Accuracy: 0.261
+Test Accuracy: 0.277
+Average Distance to Nearest Neighbors: 43.151
+
+Model Parameters:
+- Number of Neighbors: 5
+- Weight Function: distance
+- Algorithm: auto

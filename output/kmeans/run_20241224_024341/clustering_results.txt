@@ -1,0 +1,18 @@
+=== K-means Clustering Results ===
+
+Timestamp: 2024-12-24 02:44:57
+Number of samples: 50000
+Number of clusters: 10
+Training time: 22.95 seconds
+
+Training Set Metrics:
+Silhouette Score: 0.047
+Calinski-Harabasz Score: 2921.162
+Davies-Bouldin Score: 2.827
+Inertia: 100660958.060
+
+Test Set Metrics:
+Silhouette Score: 0.046
+Calinski-Harabasz Score: 584.980
+Davies-Bouldin Score: 2.821
+Inertia: 100660958.060
